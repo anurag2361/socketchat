@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./parts/head.ejs %>
+</head>
+
+<body>
+    <% include ./parts/header.ejs %>
+
+        <main>
+
+            <p>Notifications</p>
+            <p>
+                <%= msg %>
+            </p><br>
+            <p>
+                <%= status %>
+            </p><br>
+            <p>
+                <%= error %>
+            </p><br>
+
+        </main>
+
+        <script src="/js/jquery-3.1.1.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/moment.min.js"></script>
+        <script src="/js/socket.io-1.7.3.js"></script>
+</body>
+
+</html>

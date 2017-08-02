@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./parts/head.ejs %>
+</head>
+
+<body>
+    <% include ./parts/header.ejs %>
+        <div class="panel panel-primary" style="margin-left:10%;margin-right:10%;">
+            <div class="panel-heading">
+                <h3>Node Chat App</h3>
+                <div>
+                    <ul id="hey" class="list-unstyled">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr><br>
+        <main>
+            <div class="container-fluid">
+                <input type="hidden" id="user" value="<%= user.username %>" />
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h2>Options</h2>
+                            </div>
+                            <div class="panel-body" id="scrl1">
+                                <h4>Click on Group for group chat. Click on username for 1-1 chat</h4>
+                                <ul id="list"></ul>
+                            </div>
+                            <div class="panel-footer">
+                                <p id="typing"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 id="frndname">Chat</h4>
+                            </div>
+                            <div class="panel-body" id="scrl2">
+                                <p id="loading">Loading.....Please Wait</p>
+                                <p id="nochat">No chat messages to display</p>
+                                <p id="initmsg">Click on user or Group button to start</p>
+                                <ul id="messages"></ul>
+                            </div>
+                            <div class="panel-footer">
+                                <form id="chatform" action="">
+                                    <input id="mymsg" class="inputbox-send" autocomplete="off" placeholder="Write Message" />
+                                    <button id="sendbtn" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-send"></span><b>Send</b></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="/js/jquery-3.1.1.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/moment.min.js"></script>
+        <script src="/js/socket.io-1.7.3.js"></script>
+        <script src="/js/Chatscript.js"></script>
+</body>
+
+</html>

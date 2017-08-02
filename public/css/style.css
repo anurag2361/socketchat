@@ -1,0 +1,194 @@
+body{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  background-image: url('../pics/mean-bg.jpg');
+/*background-attachment: fixed;*/
+/*background-position: center;*/
+}
+.badge{
+  background-color: cyan;
+}
+#ubtn{
+  margin-bottom: 10px;
+}
+
+#logo {
+  background-image: url(Untitled.jpg);
+  width: 217px;
+  height: 41px;
+  }
+
+.panel-primary{
+  box-shadow: 0 0 30px red;
+}
+.panel-primary:hover{
+  box-shadow: 0 0 30px green;
+}
+
+
+.login-screen{
+  background-color: #cccccc;
+
+}
+
+.loginbox{
+  margin: auto;
+  margin-top: 3%;
+  width: 50%;
+  border: 2px solid cyan;
+  border-radius: 10px;
+  background-color: #19B5FE;
+}
+
+
+.loginform,
+.productform{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.inputblock{
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.inputblock p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.inputicon{
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  color: #8b9199;
+  background-color: #ffffff;
+}
+
+.inputbox{
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  width: 75%;
+  border: 0;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.boxF{
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid cyan;
+  font-weight: bold;
+}
+.boxF:hover{
+  border: 2px dotted red;
+}
+.boxN{
+  padding: 15px;
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid cyan;
+  font-weight: bold;
+  background-color: #31B0D5;
+  color: white;
+
+}
+.boxN:hover {
+  border: 2px dotted red;
+
+}
+.boxFl{
+  display: block;
+  margin: 5px;
+  border: 2px solid cyan;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px;
+}
+p{
+  font-weight: bold;
+}
+
+
+
+/*styling of chat panel body*/
+#scrl1,
+#scrl2{
+  height: 400px;
+  overflow-y: auto;
+}
+
+#loading,
+#nochat,
+#chatform{
+  display: none;
+}
+
+.inputbox-send{
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  width: 75%;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+
+#messages,
+#list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+#messages li,
+#list li{
+  text-align: left;
+  width: auto;
+  background: #eee;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/*styling for error id tag*/
+#error1,
+#error2{
+  color: #e60000;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#irf,
+#ik,#ik1,#ik2,
+#ir,#ir1,#ir2{
+  display: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#ik,#ik1,#ik2{color: #009900;}
+#ir,#ir1,#ir2{color: #e60000;}
+
+#hey{
+  display: block;
+  background-color: #31B0D5;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-height: 100px;
+  overflow-y:auto;
+
+}
+
+

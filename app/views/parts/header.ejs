@@ -1,0 +1,23 @@
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="/">
+                    <img id="logo">
+            </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
+                <li><a href="/chat">Chat</a></li>
+                <% if(user){ %>
+                    <li><a href=""><span id="totalonline">0</span> users online</a></li>
+                    <li><a href="#">Hey, <%= user.username %></a></li>
+                    <li><a href="/user/logout">Logout</a></li>
+                    <% }else{ %>
+                        <li><a href="/user/login">Login</a></li>
+                        <li><a href="/user/signup">Signup</a></li>
+                        <% } %>
+            </ul>
+        </div>
+    </nav>
+</header>
