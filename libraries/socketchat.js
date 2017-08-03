@@ -22,7 +22,7 @@ module.exports.sockets = function (http) {
     //setting route of chat
     var ioChat = io.of('/chat');
     var userStack = {};
-    var oldChats, sendUserStack, setchatroom;
+    var oldchats, sendUserStack, setchatroom;
     var userSocket = {};
 
     //socketio starts
@@ -84,7 +84,7 @@ module.exports.sockets = function (http) {
         });
 
         //sending older chats to user
-        oldChats = function (result, username, chatroom) {
+        oldchats = function (result, username, chatroom) {
             ioChat.to(userSocket[username]).emit('oldchats', {
                 result: result,
                 chatroom: chatroom
@@ -156,7 +156,7 @@ module.exports.sockets = function (http) {
         chatModel.find({})
             .where('chatroom').equals(data.chatroom)
             .sort('-created')
-            .skip(data.msgCount)
+            .skip(data.msgcount)
             .lean()
             .limit(5)
             .exec(function (err, result) {
@@ -164,7 +164,7 @@ module.exports.sockets = function (http) {
                     console.log("Error: " + err);
                 }
                 else {
-                    oldChats(result, data.username, data.chatroom);
+                    oldchats(result, data.username, data.chatroom);
                 }
             });
     });
