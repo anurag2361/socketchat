@@ -4,12 +4,10 @@ body{
   font-size: 16px;
   text-align: center;
   align-items: center;
-  background-image: url('../pics/mean-bg.jpg');
-/*background-attachment: fixed;*/
-/*background-position: center;*/
+  
 }
 .badge{
-  background-color: cyan;
+  background-color: indianred;
 }
 #ubtn{
   margin-bottom: 10px;
@@ -22,10 +20,10 @@ body{
   }
 
 .panel-primary{
-  box-shadow: 0 0 30px red;
+  box-shadow: 0 0 30px white;
 }
 .panel-primary:hover{
-  box-shadow: 0 0 30px green;
+  box-shadow: 0 0 30px wheat;
 }
 
 
@@ -38,9 +36,9 @@ body{
   margin: auto;
   margin-top: 3%;
   width: 50%;
-  border: 2px solid cyan;
+  border: 2px solid indianred;
   border-radius: 10px;
-  background-color: #19B5FE;
+  background-color: aquamarine;
 }
 
 
@@ -84,17 +82,17 @@ body{
 .boxF{
   display: inline-block;
   margin: 5px;
-  border: 2px solid cyan;
+  border: 2px solid aqua;
   font-weight: bold;
 }
 .boxF:hover{
-  border: 2px dotted red;
+  border: 2px dotted brown;
 }
 .boxN{
   padding: 15px;
   display: inline-block;
   margin: 5px;
-  border: 2px solid cyan;
+  border: 2px solid cornflowerblue;
   font-weight: bold;
   background-color: #31B0D5;
   color: white;
@@ -107,7 +105,7 @@ body{
 .boxFl{
   display: block;
   margin: 5px;
-  border: 2px solid cyan;
+  border: 2px solid firebrick;
   font-weight: bold;
   text-align: left;
   padding: 5px;
@@ -182,7 +180,7 @@ p{
 
 #hey{
   display: block;
-  background-color: #31B0D5;
+  background-color: royalblue;
   color: white;
   margin-left: 20%;
   margin-right: 20%;
