@@ -287,7 +287,7 @@ module.exports.sockets = function (http) {
 
     });
 
-    //event to find and check username.
+    //event to find and check email.
     eventEmitter.on('findEmail', function (email) {
 
         userModel.find({
