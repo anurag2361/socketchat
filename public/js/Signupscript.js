@@ -17,7 +17,7 @@ $(function () {
                 if (data == 1) {
                     uflag = 1;
                     $('#ik').show();
-                    $('ir').hide();
+                    $('#ir').hide();
                     $('#error1').hide();
                 }
                 else {
