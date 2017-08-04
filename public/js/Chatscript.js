@@ -180,7 +180,7 @@ $(function () {
         var txt3 = $('<p></p>').append(txt1, txt2);
         var txt4 = $('<p></p>').text(data.msg).css({ "color": "#000000" });
         //showing chat in chatbox
-        $('#mesages').append($('<li>').append(txt3, txt4));
+        $('#messages').append($('<li>').append(txt3, txt4));
         msgcount++;
         console.log(msgcount);
         $('#typing').text("");
