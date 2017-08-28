@@ -29,7 +29,7 @@ and inside data
 
 9. Come back to your repository folder.
 10. Open PowerShell(Windows), or Terminal(Linux).
-11. Run command `sudo service mongod start` for Linux and in case of Windows, run `cd C:/mongoDB` and after that `mongod` .
+11. Run command `sudo service mongod start` for Linux and in case of Windows, run `cd C:/mongoDB/bin` and after that `mongod` .
 12. In case of both Linux and Windows, in a new PowerShell or Terminal, inside your repository folder, run `node server` .
 13. Open `localhost:5000` in your web browser.
 14. Use the chat application.
