@@ -10,20 +10,20 @@
   "author": "Anurag Sharma",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.19.0",
     "connect-mongo": "^1.3.2",
-    "cookie-parser": "^1.4.3",
+    "cookie-parser": "^1.4.4",
     "crypto": "0.0.3",
-    "ejs": "^2.5.1",
-    "express": "^4.14.0",
-    "express-session": "^1.15.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
     "fs": "0.0.1-security",
-    "lodash": "^4.17.4",
-    "method-override": "^2.3.9",
-    "mongoose": "^4.7.5",
-    "morgan": "^1.8.1",
+    "lodash": "^4.17.15",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.19",
+    "morgan": "^1.9.1",
     "path": "^0.12.7",
-    "shortid": "^2.2.8",
-    "socket.io": "^2.0.3"
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
   }
 }
